@@ -9,18 +9,18 @@ RedisCacheHelper is a C# utility library that provides caching functionality usi
 - Allows caching with optional expiration times.
 - Provides synchronization of data retrieval using a provided function.
 
-## Installation
-
-To use RedisCacheHelper in your project, follow these steps:
-
-1. Install the StackExchange.Redis library if not already installed: [Not Available for Now]
-
 ## Usage
+1. Install the package from [NuGet](https://www.nuget.org/packages/nightmaregaurav.rediscachehelper).
 
 ```csharp
 // Example usage of RedisCacheHelper
+using RedisCacheHelper;
+// Rest of the codes...
+//
 CacheHelper.Set("myKey", myObject);
 var cachedObject = CacheHelper.Get<MyType>("myKey");
+//
+// Rest of the codes...
 ```
 
 ## License
