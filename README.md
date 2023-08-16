@@ -32,4 +32,4 @@ Made with ❤️ by [NightmareGaurav](https://github.com/nightmaregaurav).
 ---
 Open For Contribution
 ---
-We welcome contributions from the community! If you find any issues or have suggestions for improvements, feel free to open a [pull request](https://github.com/YourUsername/RedisCacheHelper/pulls) or [issue](https://github.com/YourUsername/RedisCacheHelper/issues). Your contributions help make this project better for everyone.
+We welcome contributions from the community! If you find any issues or have suggestions for improvements, feel free to open a [pull request](pulls) or [issue](issues). Your contributions help make this project better for everyone.
