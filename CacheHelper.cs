@@ -1,4 +1,7 @@
+using ExceptionSafe;
 using StackExchange.Redis;
+using StaticAppSettings;
+using SystemTextJsonHelper;
 
 namespace RedisCacheHelper
 {

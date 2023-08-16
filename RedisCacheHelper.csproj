@@ -18,6 +18,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="nightmaregaurav.exceptionsafe" Version="1.0.0" />
+        <PackageReference Include="nightmaregaurav.staticappsettings" Version="1.0.0" />
+        <PackageReference Include="nightmaregaurav.systemtextjsonhelper" Version="1.0.0" />
         <PackageReference Include="StackExchange.Redis" Version="2.6.104" />
     </ItemGroup>
 
