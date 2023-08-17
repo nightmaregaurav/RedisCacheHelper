@@ -11,7 +11,16 @@ RedisCacheHelper is a C# utility library that provides caching functionality usi
 
 ## Usage
 1. Install the package from [NuGet](https://www.nuget.org/packages/nightmaregaurav.rediscachehelper).
-
+2. Add these somewhere in your appsettings.json:
+```json
+     "Redis": {
+          "Host": "your.redis.host",
+          "Port": "PORT",
+          "Password": "xxxxxxxxxx",
+          "Prefix": "keyPrefix:"
+     }
+```
+3. Use in code
 ```csharp
 // Example usage of RedisCacheHelper
 using RedisCacheHelper;
