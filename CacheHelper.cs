@@ -15,7 +15,7 @@ namespace RedisCacheHelper
             var redisServer = AppSettingsHelper.GetSection("Redis:Host").Value ?? "localhost";
             var redisPort = int.Parse(AppSettingsHelper.GetSection("Redis:Port").Value ?? "6379");
             var redisPassword = AppSettingsHelper.GetSection("Redis:Password").Value;
-            var redisPrefix = AppSettingsHelper.GetSection("Redis:Prefix").Value ?? "nc:";
+            var redisPrefix = AppSettingsHelper.GetSection("Redis:Prefix").Value ?? "cache:";
 
             KeyPrefix = redisPrefix;
 
