@@ -12,10 +12,10 @@ namespace RedisCacheHelper
 
         static CacheHelper()
         {
-            var redisServer = AppSettingsHelper.GetSection("Redis:Host").Value ?? "localhost";
-            var redisPort = int.Parse(AppSettingsHelper.GetSection("Redis:Port").Value ?? "6379");
-            var redisPassword = AppSettingsHelper.GetSection("Redis:Password").Value;
-            var redisPrefix = AppSettingsHelper.GetSection("Redis:Prefix").Value ?? "cache:";
+            var redisServer = AppSettingsHelper.Configuration["Redis:Host"] ?? "localhost";
+            var redisPort = int.Parse(AppSettingsHelper.Configuration["Redis:Port"] ?? "6379");
+            var redisPassword = AppSettingsHelper.Configuration["Redis:Password"];
+            var redisPrefix = AppSettingsHelper.Configuration["Redis:Prefix"] ?? "cache:";
 
             KeyPrefix = redisPrefix;
 

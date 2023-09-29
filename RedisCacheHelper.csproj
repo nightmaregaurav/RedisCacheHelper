@@ -4,8 +4,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>nightmaregaurav.rediscachehelper</PackageId>
-        <Version>1.0.1</Version>
-        <PackageVersion>1.0.1</PackageVersion>
+        <Version>1.0.2</Version>
+        <PackageVersion>1.0.2</PackageVersion>
         <Description>A C# utility library that provides caching functionality using the StackExchange.Redis library without DI. It simplifies the process of storing and retrieving data from a Redis cache, allowing for efficient and reliable caching of objects.</Description>
         <Authors>Gaurav Nyaupane</Authors>
         <Owners>nightmaregaurav</Owners>
@@ -18,10 +18,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="nightmaregaurav.exceptionsafe" Version="1.0.0" />
-        <PackageReference Include="nightmaregaurav.staticappsettings" Version="1.0.0" />
-        <PackageReference Include="nightmaregaurav.systemtextjsonhelper" Version="1.0.0" />
-        <PackageReference Include="StackExchange.Redis" Version="2.6.104" />
+        <PackageReference Include="nightmaregaurav.exceptionsafe" Version="1.0.1" />
+        <PackageReference Include="nightmaregaurav.staticappsettings" Version="1.0.2" />
+        <PackageReference Include="nightmaregaurav.systemtextjsonhelper" Version="1.0.1" />
+        <PackageReference Include="StackExchange.Redis" Version="2.6.122" />
     </ItemGroup>
 
     <ItemGroup>
